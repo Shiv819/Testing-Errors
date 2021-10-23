@@ -1,0 +1,92 @@
+
+@All @SmokeTesting
+Scenario: Website                      [90m# src/test/java/FeatureFiles/FF01_NaviagteToHNwebsite.feature:8[0m
+  [31mGiven [0m[31mNavigate to website and assert[0m [90m# StepDefinations.SD01_navigateToHNwebsite.navigate_to_website_and_assert()[0m
+      [31mjava.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at Homepage.AT01_navigateTowebsite.navigate(AT01_navigateTowebsite.java:16)
+	at StepDefinations.SD01_navigateToHNwebsite.navigate_to_website_and_assert(SD01_navigateToHNwebsite.java:13)
+	at ✽.Navigate to website and assert(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF01_NaviagteToHNwebsite.feature:9)
+[0m
+  [36mThen [0m[36mNavigate to Login screen[0m        [90m# StepDefinations.SD01_navigateToHNwebsite.navigate_to_login_screen()[0m
+
+@SmokeTesting
+Scenario Outline: Create multiple accounts                [90m# src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:12[0m
+  [31mGiven [0m[31mnavigate to Registration screen of HN website[0m     [90m# StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()[0m
+      [31mjava.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website(SD02_CreateMultipleAcc.java:14)
+	at ✽.navigate to Registration screen of HN website(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:4)
+[0m
+  [36mThen [0m[36mcustomer enters firstname as [0m[36m[1m"FirstName01"[0m         [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters lastname as [0m[36m[1m"LastName01"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters emailadd as [0m[36m[1m"EmailAdd01@gmail.com"[0m [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters pass as [0m[36m[1m"Password01"[0m               [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters repass as [0m[36m[1m"RePassword01"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)[0m
+
+@SmokeTesting
+Scenario Outline: Create multiple accounts                [90m# src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:13[0m
+  [31mGiven [0m[31mnavigate to Registration screen of HN website[0m     [90m# StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()[0m
+      [31mjava.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website(SD02_CreateMultipleAcc.java:14)
+	at ✽.navigate to Registration screen of HN website(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:4)
+[0m
+  [36mThen [0m[36mcustomer enters firstname as [0m[36m[1m"FirstName02"[0m         [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters lastname as [0m[36m[1m"LastName02"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters emailadd as [0m[36m[1m"EmailAdd02@gmail.com"[0m [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters pass as [0m[36m[1m"Password02"[0m               [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters repass as [0m[36m[1m"RePassword02"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)[0m
+
+@SmokeTesting
+Scenario Outline: Create multiple accounts                [90m# src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:14[0m
+  [31mGiven [0m[31mnavigate to Registration screen of HN website[0m     [90m# StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()[0m
+      [31mjava.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website(SD02_CreateMultipleAcc.java:14)
+	at ✽.navigate to Registration screen of HN website(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:4)
+[0m
+  [36mThen [0m[36mcustomer enters firstname as [0m[36m[1m"FirstName03"[0m         [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters lastname as [0m[36m[1m"LastName03"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters emailadd as [0m[36m[1m"EmailAdd03@gmail.com"[0m [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters pass as [0m[36m[1m"Password03"[0m               [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters repass as [0m[36m[1m"RePassword03"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)[0m
+
+@SmokeTesting
+Scenario Outline: Create multiple accounts                [90m# src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:15[0m
+  [31mGiven [0m[31mnavigate to Registration screen of HN website[0m     [90m# StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website()[0m
+      [31mjava.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website(SD02_CreateMultipleAcc.java:14)
+	at ✽.navigate to Registration screen of HN website(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:4)
+[0m
+  [36mThen [0m[36mcustomer enters firstname as [0m[36m[1m"FirstName04"[0m         [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_firstname_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters lastname as [0m[36m[1m"LastName04"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_lastname_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters emailadd as [0m[36m[1m"EmailAdd04@gmail.com"[0m [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_emailadd_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters pass as [0m[36m[1m"Password04"[0m               [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_pass_as(java.lang.String)[0m
+  [36mThen [0m[36mcustomer enters repass as [0m[36m[1m"RePassword04"[0m           [90m# StepDefinations.SD02_CreateMultipleAcc.customer_enters_repass_as(java.lang.String)[0m

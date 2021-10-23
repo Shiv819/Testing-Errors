@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="3.678">
+    <testcase classname="Navigate to website" name="Website" time="1.105">
+        <failure message="C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)" type="java.io.FileNotFoundException"><![CDATA[Given Navigate to website and assert........................................failed
+Then Navigate to Login screen...............................................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at Homepage.AT01_navigateTowebsite.navigate(AT01_navigateTowebsite.java:16)
+	at StepDefinations.SD01_navigateToHNwebsite.navigate_to_website_and_assert(SD01_navigateToHNwebsite.java:13)
+	at ✽.Navigate to website and assert(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF01_NaviagteToHNwebsite.feature:9)
+]]></failure>
+    </testcase>
+    <testcase classname="Registration Screen" name="Create multiple accounts" time="0.58">
+        <failure message="C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)" type="java.io.FileNotFoundException"><![CDATA[Given navigate to Registration screen of HN website.........................failed
+Then customer enters firstname as "FirstName01".............................skipped
+Then customer enters lastname as "LastName01"...............................skipped
+Then customer enters emailadd as "EmailAdd01@gmail.com".....................skipped
+Then customer enters pass as "Password01"...................................skipped
+Then customer enters repass as "RePassword01"...............................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website(SD02_CreateMultipleAcc.java:14)
+	at ✽.navigate to Registration screen of HN website(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="Registration Screen" name="Create multiple accounts 2" time="0.647">
+        <failure message="C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)" type="java.io.FileNotFoundException"><![CDATA[Given navigate to Registration screen of HN website.........................failed
+Then customer enters firstname as "FirstName02".............................skipped
+Then customer enters lastname as "LastName02"...............................skipped
+Then customer enters emailadd as "EmailAdd02@gmail.com".....................skipped
+Then customer enters pass as "Password02"...................................skipped
+Then customer enters repass as "RePassword02"...............................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website(SD02_CreateMultipleAcc.java:14)
+	at ✽.navigate to Registration screen of HN website(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="Registration Screen" name="Create multiple accounts 3" time="0.586">
+        <failure message="C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)" type="java.io.FileNotFoundException"><![CDATA[Given navigate to Registration screen of HN website.........................failed
+Then customer enters firstname as "FirstName03".............................skipped
+Then customer enters lastname as "LastName03"...............................skipped
+Then customer enters emailadd as "EmailAdd03@gmail.com".....................skipped
+Then customer enters pass as "Password03"...................................skipped
+Then customer enters repass as "RePassword03"...............................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website(SD02_CreateMultipleAcc.java:14)
+	at ✽.navigate to Registration screen of HN website(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="Registration Screen" name="Create multiple accounts 4" time="0.63">
+        <failure message="C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)" type="java.io.FileNotFoundException"><![CDATA[Given navigate to Registration screen of HN website.........................failed
+Then customer enters firstname as "FirstName04".............................skipped
+Then customer enters lastname as "LastName04"...............................skipped
+Then customer enters emailadd as "EmailAdd04@gmail.com".....................skipped
+Then customer enters pass as "Password04"...................................skipped
+Then customer enters repass as "RePassword04"...............................skipped
+
+StackTrace:
+java.io.FileNotFoundException: C:\Users\Shiv\IdeaProjects\SeleniumLearning\src\main\java\PropertiesFile\ProjectName.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+	at PropertiesFile.ReadPropertiesFile.PropFile(ReadPropertiesFile.java:10)
+	at BaseClass.OpenBrowser.NavToWebsite(OpenBrowser.java:33)
+	at StepDefinations.SD02_CreateMultipleAcc.navigate_to_registration_screen_of_hn_website(SD02_CreateMultipleAcc.java:14)
+	at ✽.navigate to Registration screen of HN website(file:///C:/Users/Shiv/IdeaProjects/SeleniumLearning/src/test/java/FeatureFiles/FF02_ScenarioExamples.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>
